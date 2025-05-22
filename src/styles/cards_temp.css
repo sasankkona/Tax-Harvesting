@@ -1,0 +1,70 @@
+/* PreHarvestingCard and AfterHarvestingCard table styles */
+
+.pre-harvesting-table,
+.after-harvesting-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.pre-harvesting-table th,
+.pre-harvesting-table td,
+.after-harvesting-table th,
+.after-harvesting-table td {
+  padding: 0.5rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #374151;
+}
+
+.pre-harvesting-table th,
+.after-harvesting-table th {
+  font-weight: normal;
+  color: #9ca3af; /* gray-400 */
+}
+
+.pre-harvesting-table td:first-child,
+.after-harvesting-table td:first-child {
+  font-weight: 600;
+}
+
+.pre-harvesting-summary,
+.after-harvesting-summary {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.pre-harvesting-total,
+.after-harvesting-total {
+  float: right;
+  font-size: 1.5rem;
+}
+
+/* Card container styles remain unchanged */
+
+.pre-harvesting-card {
+  background-color: #111827; /* dark background */
+  color: white;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 28rem;
+  margin-bottom: 1rem;
+}
+
+.after-harvesting-card {
+  background: linear-gradient(to bottom right, #3b82f6, #2563eb);
+  color: white;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 28rem;
+  margin-bottom: 1rem;
+}
+
+.after-harvesting-savings {
+  margin-top: 1rem;
+  font-size: 1rem;
+}

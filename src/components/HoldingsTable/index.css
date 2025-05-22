@@ -1,0 +1,77 @@
+.holdings-container {
+  background-color: #111827;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  overflow-x: auto;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.holdings-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.holdings-th,
+.holdings-td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #374151;
+}
+
+.holdings-th-right,
+.holdings-td-right {
+  text-align: right;
+}
+
+.holdings-th {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
+
+.holdings-text-xs {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.holdings-checkbox {
+  cursor: pointer;
+}
+
+.holdings-flex {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.holdings-img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.holdings-font-medium {
+  font-weight: 500;
+}
+
+.holdings-tr-hover:hover {
+  background-color: #1f2937;
+  cursor: pointer;
+}
+
+.holdings-tr-checked {
+  background-color: #2563eb;
+  color: white;
+}
+
+.gain-positive {
+  color: #22c55e; /* green */
+  font-weight: 600;
+}
+
+.gain-negative {
+  color: #ef4444; /* red */
+  font-weight: 600;
+}

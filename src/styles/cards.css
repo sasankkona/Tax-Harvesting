@@ -1,0 +1,96 @@
+/* PreHarvestingCard styles */
+
+.pre-harvesting-card {
+  background-color: #111827; /* dark background */
+  color: white;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 28rem;
+  font-family: Arial, sans-serif;
+}
+
+.pre-harvesting-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.pre-harvesting-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pre-harvesting-text-right {
+  text-align: right;
+}
+
+.pre-harvesting-hr {
+  border: none;
+  border-top: 2px solid white;
+  margin-bottom: 1rem;
+}
+
+.pre-harvesting-summary {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.pre-harvesting-total {
+  float: right;
+  font-size: 1.75rem;
+}
+
+/* AfterHarvestingCard styles */
+
+.after-harvesting-card {
+  background: linear-gradient(to bottom right, #3b82f6, #2563eb);
+  color: white;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 28rem;
+  font-family: Arial, sans-serif;
+}
+
+.after-harvesting-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.after-harvesting-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.after-harvesting-text-right {
+  text-align: right;
+}
+
+.after-harvesting-hr {
+  border: none;
+  border-top: 2px solid white;
+  margin-bottom: 1rem;
+}
+
+.after-harvesting-summary {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.after-harvesting-total {
+  float: right;
+  font-size: 1.75rem;
+}
+
+.after-harvesting-savings {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
