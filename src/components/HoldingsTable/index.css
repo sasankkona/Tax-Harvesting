@@ -75,3 +75,24 @@
   color: #ef4444; /* red */
   font-weight: 600;
 }
+
+/* Mobile responsiveness */
+
+@media (max-width: 600px) {
+  .holdings-th,
+  .holdings-td,
+  .holdings-th-right,
+  .holdings-td-right {
+    padding: 0.4rem 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  .holdings-text-xs {
+    font-size: 0.6rem;
+  }
+
+  .holdings-img {
+    width: 16px;
+    height: 16px;
+  }
+}

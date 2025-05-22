@@ -94,3 +94,38 @@
   margin-top: 1rem;
   font-size: 1rem;
 }
+
+/* Mobile responsiveness */
+
+@media (max-width: 600px) {
+  .pre-harvesting-card,
+  .after-harvesting-card {
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  .pre-harvesting-title,
+  .after-harvesting-title {
+    font-size: 1.1rem;
+  }
+
+  .pre-harvesting-summary,
+  .after-harvesting-summary {
+    font-size: 1.2rem;
+  }
+
+  .pre-harvesting-total,
+  .after-harvesting-total {
+    font-size: 1.4rem;
+    float: none;
+    display: block;
+    margin-top: 0.5rem;
+  }
+
+  .pre-harvesting-grid,
+  .after-harvesting-grid {
+    grid-template-columns: 1fr;
+    gap: 0.25rem 0;
+    font-size: 0.9rem;
+  }
+}
