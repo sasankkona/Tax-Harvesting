@@ -19,18 +19,18 @@ const AfterHarvestingCard = ({ capitalGains, savings }) => {
                 <tbody>
                     <tr>
                         <td>Profits</td>
-                        <td>₹{capitalGains.stcg.profits.toFixed(2)}</td>
-                        <td>₹{capitalGains.ltcg.profits.toFixed(2)}</td>
+                        <td>${capitalGains.stcg.profits.toFixed(2)}</td>
+                        <td>${capitalGains.ltcg.profits.toFixed(2)}</td>
                     </tr>
                     <tr>
                         <td>Losses</td>
-                        <td>₹{capitalGains.stcg.losses.toFixed(2)}</td>
-                        <td>₹{capitalGains.ltcg.losses.toFixed(2)}</td>
+                        <td>${capitalGains.stcg.losses.toFixed(2)}</td>
+                        <td>${capitalGains.ltcg.losses.toFixed(2)}</td>
                     </tr>
                     <tr>
-                        <td><strong>Net Capital Gains</strong></td>
-                        <td><strong>₹{stcgNet.toFixed(2)}</strong></td>
-                        <td><strong>₹{ltcgNet.toFixed(2)}</strong></td>
+                        <td>Net Capital Gains</td>
+                        <td><strong>${stcgNet.toFixed(2)}</strong></td>
+                        <td><strong>${ltcgNet.toFixed(2)}</strong></td>
                     </tr>
                 </tbody>
             </table>
